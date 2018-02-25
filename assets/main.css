@@ -1,0 +1,41 @@
+
+h1 {
+    position: absolute;
+    margin-left: -430px;
+    left: 50%;
+    top: 50%;
+    font-family: BebasNeueBold;
+    color: #111;
+    letter-spacing: 8px;
+    text-shadow: 6px 4px 3px #666;
+    padding-left: 40px;
+    font-size: 50px;
+    text-align: left;
+    margin-top: -55px;
+    }
+
+
+.prof {
+    position: absolute;
+    width: 590px;
+    margin-left: -295px;
+    left: 50%;
+    top: 50%;
+    font-family: BebasNeueBold;
+    text-transform: uppercase;
+    color: #111;
+    letter-spacing: 8px;
+    text-shadow: 6px 4px 3px #666;
+    padding-left: 40px;
+    font-size: 50px;
+    text-align: left;
+    margin-top: -55px;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+body {
+    background-image: url("https://ndmikkiholicdotcom.files.wordpress.com/2016/06/black-and-white-brick-wall-background-white-brick-wall-image-decoration-picture-white-brick-wall.jpg");
+    background-size: cover;
+}
