@@ -48,6 +48,7 @@ h1 {
     top:0;
     width:4%;
     position:absolute;
+
 }
 .toggle_but{
     height:40px;
@@ -56,6 +57,27 @@ h1 {
     top:0;
     width:40px;
     position:absolute;
+    left:8px;
+   
+}
+.toggle_but span {
+    position:absolute;
+    width:30px;
+    height:2px;
+    left:4px;
+    background-color:#2cbc99;
+    -webkit-transition:all .3s;
+    box-sizing: border-box;
+}
+.toggle_but span:nth-child(1) {
+    top: 10px;
+    
+}
+.toggle_but span:nth-child(2) {
+    top: 22px;
+}
+.toggle_but span:nth-child(3) {
+    top: 34px;
 }
 .soc_wrap{
     bottom: 0;
@@ -91,3 +113,7 @@ h1 {
     color:#2cbc99
     
 }
+
+
+       
+
