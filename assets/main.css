@@ -137,7 +137,7 @@ h1 {
     margin-left: 450px;
 }
 
-h2, h6{
+h2, h6 {
     background-color: rgb(3, 3, 3);
     list-style-type: none;
     padding: 0;
@@ -263,3 +263,133 @@ ul{
     -webkit-transition: left .3s;
 }
 
+.monitor .monitor {
+    width: 100%;
+    max-width: 515px;
+    min-width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.monitor .cont {
+    top: 2.5%;
+    position: absolute;
+    background-color: #fff;
+    width: 96%;
+    height: 90%;
+    left: 2%;
+    overflow: hidden;
+    -webkit-transition: all .3s;
+    transition-delay: .3s;
+}
+
+.monitor .stand {
+    bottom: -31px;
+    left: 45%;
+    height: 30px;
+    background-color: #ccc;
+    width: 10%;
+    -webkit-transition: all .5s;
+    position:absolute;
+}
+
+.monitor .stand_bot {
+    position: absolute;
+    bottom: -37px;
+    left: 35%;
+    height: 5px;
+    width: 30%;
+    background-color: #ccc;
+    -webkit-transition: all .5s;
+    border-radius: 3px;
+}
+.monitor .cont img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all .3s;
+}
+img{
+    vertical-align: middle;
+    border:0;
+}
+.site-item .wrap_prew .port_wrap {
+    position: relative;
+    text-align: center;
+}
+
+.site-item .wrap_prew .port_wrap .active>span {
+    width: 80px;
+    height: 80px;
+    top: 1px;
+    margin: 10px;
+    right: 2px;
+    line-height: 94px;
+    text-align: center;
+    border: 3px solid #ccc;
+    cursor: pointer;
+    overflow: hidden;
+    -webkit-transition: all .3s cubic-bezier(0,2,1,.5);
+    transition: all .3s cubic-bezier(0,2,1,.5);
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.site-item .wrap_prew .port_wrap div>span {
+    color: transparent;
+    display: inline-block;
+}
+#portfolio .site-item>div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: middle;
+}
+.site-descr {
+    position: relative;
+    padding-left: 20px;
+    text-align: center;
+}
+.site-item {
+    min-height: 560px;
+    clear:both;
+}
+form#send {
+    display: block;
+    max-width: 600px;
+    margin: 80px auto 30px;
+    position: relative;
+    z-index: 1;
+}
+footer {
+    position: relative;
+    overflow: hidden;
+    padding-top: 110px;
+    margin-top: -115px;
+    color: #999;
+    z-index:100;
+}
+footer .footer-wrap {
+    min-height: 300px;
+    padding-top: 40px;
+    background-color: #000;
+    position: relative;
+}
+
+form#send input {
+    text-indent: 10px;
+    display: block;
+    height: 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 100%;
+}
+@media (min-width: 768px)
+.col-sm-6 {
+    width: 50%;
+}
+
+@media (min-width: 768px)
+.col-sm-4 {
+    width: 33.33333333%;
+}
