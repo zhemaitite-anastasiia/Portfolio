@@ -39,28 +39,96 @@ h1 {
 .header_wrap {
     background-image: url("https://ndmikkiholicdotcom.files.wordpress.com/2016/06/black-and-white-brick-wall-background-white-brick-wall-image-decoration-picture-white-brick-wall.jpg");
     background-size: cover;
-}
+} 
 
 .top_nav{
     left:0;
     height:700px;
     background-color:#111;
     top:0;
-    width:4%;
+    width:100px;
     position:absolute;
 
 }
 .toggle_but{
-    height:40px;
-    z-index:110;
-    cursor:pointer;
-    top:0;
-    width:40px;
-    position:absolute;
-    left:8px;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width:100px;
    
 }
-.toggle_but span {
+.menu {
+    background: #555 url('http://wallpaper-gallery.net/images/black-picture/black-picture-3.jpg') repeat left top;
+    left: -285px;
+    height: 100%;
+    position: fixed;
+    width: 285px;
+  }
+   
+
+   
+  .background {
+    background-image: url("http://wallpaper-gallery.net/images/black-picture/black-picture-3.jpg"); 
+    height: 100%;
+    width: 100%;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+  }
+   
+  .menu ul {
+    border-top: 1px solid #555;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+   
+  .menu li {
+    border-bottom: 1px solid #555;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+  }
+   
+  .menu li:hover {
+    cursor: pointer;
+    background-color: #555;
+    }
+   
+  .menu a {
+    color: #fff;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+   
+  .icon-close {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 6px;
+  }
+   
+  .icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+   
+  .icon-manu img {
+    margin-right: 5px;
+  }
+/* .toggle_but span {
     position:absolute;
     width:30px;
     height:2px;
@@ -78,7 +146,7 @@ h1 {
 }
 .toggle_but span:nth-child(3) {
     top: 34px;
-}
+} */
 .soc_wrap{
     bottom: 0;
     position:absolute;
@@ -383,13 +451,6 @@ form#send input {
     margin-bottom: 30px;
     background-color: #fff;
     width: 100%;
-}
-h7{
-    color: #2cbc99;
-    font-size: 23px;
-    margin-left: 190px;
-
-
 }
 
 #table {
