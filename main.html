@@ -13,21 +13,30 @@
     integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
     crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-</head>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    
 
 <body>
 <header>
     <div class = "header_wrap" style="height:692px";>
+      <div class = "navigation_wrap" style = "height:200px;">
+        
+          
+       
+        <h7><span>Home</span></h7>
+      
+       
+
+      
+      </div>
     <h1>ANASTASIIA ZHEMAITITE</h1>
     <span class = "prof">FRONT-END / WEB DEVELOPER</span>
     </div>
     
     <div class ="top_nav">
-        <div class = "toggle_but">
-            <span></span>
-            <span></span>
-            <span></span>
-            </div>
+        <div class = "toggle_but"> 
+        </div>
+          
             
    
         <div class = "soc_wrap">
@@ -312,6 +321,33 @@
 </footer>
   
 </div>
+<script>
+  function typeEffect(element, speed) {
+	var text = $(element).text();
+	$(element).html('');
+	
+	var i = 0;
+	var timer = setInterval(function() {
+					if (i < text.length) {
+						$(element).append(text.charAt(i));
+						i++;
+					} else {
+						clearInterval(timer);
+					}
+				}, speed);
+}
+
+$( document ).ready(function() {
+  var speed = 175;
+  var delay = $('h1').text().length * speed + speed;
+  typeEffect($('h1'), speed);
+  setTimeout(function(){
+    $('.prof').css('display', 'inline-block');
+    typeEffect($('.prof'), speed);
+  }, delay);
+  
+});
+</script>
    
 </body>
 </html>
