@@ -399,14 +399,33 @@ img{
     border: 3px solid #ccc;
     cursor: pointer;
     overflow: hidden;
-    -webkit-transition: all .3s cubic-bezier(0,2,1,.5);
+ 
     transition: all .3s cubic-bezier(0,2,1,.5);
-    -webkit-border-radius: 50%;
+ 
     border-radius: 50%;
 }
 .site-item .wrap_prew .port_wrap div>span {
     color: transparent;
     display: inline-block;
+}
+.site-item .wrap_prew .port_wrap .active>span.active i {
+    color: #2cbc99;
+}
+.site-item .wrap_prew .port_wrap .active>span i {
+    font-size: 35px;
+    line-height: 75px;
+    display: block;
+    -webkit-transition: all .3s;
+
+}
+.fas {
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+
+}
+.fa-desktop:before {
+    content: "\f108";
 }
 #portfolio .site-item>div {
     display: inline-block;
@@ -418,6 +437,15 @@ img{
     padding-left: 20px;
     text-align: center;
 }
+.site-descr h3 {
+    font-size: 24px;
+    color: #111;
+    font-family: OpenSansBold;
+    line-height: 20px;
+    text-align: left;
+}
+
+
 .site-item {
     min-height: 560px;
     clear:both;
@@ -436,10 +464,11 @@ footer {
     margin-top: -115px;
     color: #999;
     z-index:100;
+    height:180px;
 }
 footer .footer-wrap {
-    min-height: 300px;
-    padding-top: 40px;
+    min-height: 180px;
+    padding-top: 10px;
     background-color: #000;
     position: relative;
 }
@@ -463,6 +492,9 @@ form#send input {
 #centeralign {
 	display: table-cell;
 	vertical-align: middle;
+}
+.col-sm-6{
+    float:left;
 }
 @media (min-width: 768px)
 .col-sm-6 {

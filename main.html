@@ -139,7 +139,9 @@
         <div class="col-md-12">
           <div class="ajax-wrap">
             <div class="site-item">
+              
               <div class="wrap_prew">
+                
                 <div class="prew monitor">
                   <div class="monitor">
                     <div class="stand"></div>
@@ -148,8 +150,8 @@
                   </div>
                 </div>
                 <div class="port_wrap">
-                  <div class="active"><span data-show="monitor" data-src="https://images.pexels.com/photos/53958/team-motivation-teamwork-together-53958.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb" class="active pc_but"><i class="fas fa-desktop-alt"></i><i class="fas fa-desktop-alt"></i></span><span data-show="ipod" data-src="img/portfolio-scren/ykarservis-com-tablet.jpg" class="ipod_but"><i class="fas fa-tablet-alt"></i><i class="fas fa-tablet-alt"></i></span><span data-show="phoneW" data-src="img/portfolio-scren/ykarservis-com-mobile.jpg" class="iphone_but"><i class="fas fa-mobile-alt"></i><i class="fas fa-mobile-alt"></i></span>
-                  </div>
+                  <!-- <div class="active"><span data-show="monitor" data-src="https://images.pexels.com/photos/53958/team-motivation-teamwork-together-53958.jpeg?w=1260&h=750&dpr=2&auto=compress&cs=tinysrgb" class="active pc_but"><i class="fas fa-desktop"></i><i class="fas fa-desktop"></i></span><span data-show="ipod" data-src="img/portfolio-scren/ykarservis-com-tablet.jpg" class="ipod_but"><i class="fas fa-tablet"></i><i class="fas fa-tablet"></i></span><span data-show="phoneW" data-src="img/portfolio-scren/ykarservis-com-mobile.jpg" class="iphone_but"><i class="fas fa-mobile-alt"></i><i class="fas fa-mobile-alt"></i></span>
+                  </div> -->
                 </div>
               </div>
               <div class="site-descr">
@@ -313,35 +315,35 @@
 <footer>
   <div class="footer-wrap">
     <div class="container foot-info">
-      <div class="row">
-        <div class="col-sm-4 col-xs-12">
-        
-         
-        <div class="col-sm-4 col-xs-12">
-          <h4>Connect with me</h4>
-          <p><i class="fa fa-phone"></i><a href="cell:+18434465792">+18434465792</a></p>
-          <p><i class="fa fa-envelope"></i><a href="mailto:a.zhemaitite@gmail.com">a.zhemaitite@gmail.com</a></p>
-          <p><i class="fa fa-map-marker"></i>Chicago, IL</p>
+      <div class="row">  
+        <div class="col-sm-6 col-xs-12">
+          <h4 style="margin-left:100px;">Connect with me</h4>
+          <p style="margin-left:100px;"><i class="fa fa-phone"></i><a href="cell:+18434465792">  +18434465792</a></p>
+          <p style="margin-left:100px;"><i class="fa fa-envelope"></i><a href="mailto:a.zhemaitite@gmail.com">  a.zhemaitite@gmail.com</a></p>
+          
         </div>
-        <div class="col-sm-4 col-xs-12">
-           </label>
-          </form><a href="" class="download site-link white"><span><i class="fa fa-download"> </i>Download my Resume in PDF</span></a>
+        <div class="col-sm-6 col-xs-12"> 
+          <a href="" class="download site-link white"><span><i class="fa fa-download"> </i>Download my Resume in PDF</span></a>
         </div>
-      </div>
-    </div>
+        </div>
+      
+    
     <div class="copy">
       <div class="container">
         <div class="row">
           
             <div class="dev"><a href="" target="_blank" rel="nofollow">Developed by <span>Anastasiia Zhemaitite</span></a></div>
-          </div>
-        </div>
+       
       </div>
-    </div>
-  </div>
-</footer>
+      </div>
+    
   
 </div>
+</div>
+</div>
+
+</footer>
+
 <script>
 function typeEffect(element, speed) {
 	var text = $(element).text();
@@ -367,43 +369,39 @@ $( document ).ready(function() {
   }, delay);
   
 });
-var main = function() { //главная функция
+var main = function() { 
  
- $('.icon-menu').click(function() { /* выбираем класс icon-menu и
-            добавляем метод click с функцией, вызываемой при клике */
+ $('.icon-menu').click(function() { 
 
-     $('.menu').animate({ //выбираем класс menu и метод animate
+     $('.menu').animate({ 
 
-         left: '0px' /* теперь при клике по иконке, меню, скрытое за
-            левой границей на 285px, изменит свое положение на 0px и станет видимым */
+         left: '0px' 
 
-     }, 200); //скорость движения меню в мс
+     }, 200); 
       
-     $('.toggle_but').animate({ //выбираем тег body и метод animate
+     $('.toggle_but').animate({ 
 
-         left: '285px' /* чтобы всё содержимое также сдвигалось вправо
-            при открытии меню, установим ему положение 285px */
+         left: '285px' 
 
-     }, 200); //скорость движения меню в мс
+     }, 200); 
  });
 
 
-/* Закрытие меню */
 
- $('.icon-close').click(function() { //выбираем класс icon-close и метод click
 
-     $('.menu').animate({ //выбираем класс menu и метод animate
+ $('.icon-close').click(function() { 
 
-         left: '-285px' /* при клике на крестик меню вернется назад в свое
-            положение и скроется */
+     $('.menu').animate({ 
 
-     }, 200); //скорость движения меню в мс
+         left: '-285px' 
+
+     }, 200); 
       
- $('.toggle_but').animate({ //выбираем тег body и метод animate
+ $('.toggle_but').animate({ 
 
-         left: '0px' //а содержимое страницы снова вернется в положение 0px
+         left: '0px' 
 
-     }, 200); //скорость движения меню в мс
+     }, 200); 
  });
 };
 
