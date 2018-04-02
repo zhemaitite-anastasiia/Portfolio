@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/main.css">
+   
 
     <title>Main</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <script
@@ -19,9 +21,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="main.js"></script>
+    <script src="scroll-down.js"></script>
 
 <body>
-  <section class = "panel">
+  <section class = "panel" id="homescreen">
     <div class = "header_wrap" style="height:692px">
       <h1>ANASTASIIA ZHEMAITITE</h1>
     <span class = "prof">FRONT-END / WEB DEVELOPER</span> 
@@ -36,17 +39,17 @@
 
               <div class="menu">
        
-                  <!-- Иконка меню -->
+                  <!-- Icon menu -->
                   <div class="icon-close">
                       <i class="fas fa-times" style="width:50px; height:50px; color:#2cbc99;"></i>
                   </div>
            
-                  <!-- Меню -->
+                  <!-- Menu -->
                   <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About</a></li>
-                      <li><a href="#">Projects</a></li>
-                      <li><a href="#">Contact</a></li>
+                      <li><a href="#homescreen">Home</a></li>
+                      <li><a href="#skill">About</a></li>
+                      <li><a href="#portfolio">Projects</a></li>
+                      <li><a href="#contactme">Contact</a></li>
                   </ul>
               </div>
            
@@ -86,12 +89,13 @@
         
 
     </div>
-    <span class ="button_down">
+    <a class ="button_down" href="#skill"><i class = "fa fa-chevron-down"></i></a>
+    <!-- <span class ="button_down">
     
     <i class = "fa fa-chevron-down">
     
     </i>
-    </span>
+    </span> -->
 </header>
 
 
@@ -304,7 +308,7 @@
 </section>
 <section class="panel">
   
-  <section class="black_section contacts">
+  <section class="black_section contacts" id ="contactme">
     <div class="black_section_wrap">
         <div class ="title-block" style="margin-left:520px;">
             <h2 class="section_title front_side"><span class="sub_title" style="color:#2cbc99; font-size:30px;font-weight:bold;">Contact Me</span></h2>
@@ -333,9 +337,9 @@
     <!-- <div class="container foot-info"> -->
       <div class="row">  
         <div class="col-sm-6 col-xs-12">
-          <h4 style="margin-left:100px; height:10px;">Connect with me</h4>
-          <p style="margin-left:100px;"><i class="fa fa-phone"></i><a href="cell:+1843-446-5792" style="color:#2cbc99">  +1843-446-5792</a></p>
-          <p style="margin-left:100px;"><i class="fa fa-envelope"></i><a href="mailto:a.zhemaitite@gmail.com" style="color:#2cbc99">  a.zhemaitite@gmail.com</a></p>
+          <h4 style="margin-left:30px; height:10px;">Connect with me</h4>
+          <p style="margin-left:30px;"><i class="fa fa-phone"></i><a href="cell:+1843-446-5792" style="color:#2cbc99">  +1843-446-5792</a></p>
+          <p style="margin-left:30px;"><i class="fa fa-envelope"></i><a href="mailto:a.zhemaitite@gmail.com" style="color:#2cbc99">  a.zhemaitite@gmail.com</a></p>
           <div class="dev"><a href="" target="_blank" rel="nofollow" style="margin-left:600px; color:grey;">Copyright 2018. Developed by Anastasiia Zhemaitite </a></div>
         </div>
         <!-- <div class="col-sm-6 col-xs-12"> 
