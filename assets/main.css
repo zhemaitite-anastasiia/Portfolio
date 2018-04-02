@@ -470,6 +470,7 @@ footer {
 footer .footer-wrap {
     min-height: 180px;
     padding-top: 10px;
+    margin-bottom: 35px;
     background-color: #000;
     position: relative;
 }
@@ -496,6 +497,10 @@ form#send input {
 }
 .col-sm-6{
     float:left;
+}
+.panel {
+    height: 100%;
+    width: 100%;
 }
 @media (min-width: 768px)
 .col-sm-6 {
