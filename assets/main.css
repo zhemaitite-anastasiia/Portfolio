@@ -3,7 +3,7 @@ h1 {
     position: absolute;
     margin-left: -430px;
     left: 50%;
-    top: 50%;
+    top: 30%;
     font-family: BebasNeueBold;
     color: #111;
     letter-spacing: 8px;
@@ -22,7 +22,7 @@ h1 {
     width: 590px;
     margin-left: -295px;
     left: 50%;
-    top: 50%;
+    top: 35%;
     font-family: BebasNeueBold;
     text-transform: uppercase;
     color: #111;
