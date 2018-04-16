@@ -10,17 +10,18 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
   <link rel="stylesheet" href="../pictonic/css/pictonic.css">
   
-  *With conditional js for compatibility from ie6-ie9. Not required if you're already using that adds :before support like ie7.js
-
+  
     <title>Main</title>
     <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+ 
     <script
     src="http://code.jquery.com/jquery-3.3.1.slim.js"
     integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
     crossorigin="anonymous"></script>
+    <script src="js/jQuery-svg-progress.js"></script>
     <script src = 'https://fonts.googleapis.com/css?family=Roboto+Mono:100'></script>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
@@ -98,7 +99,8 @@
         
 
     </div>
-    <a class ="button_down" href="#skill"><i class = "fa fa-chevron-down"></i></a>
+    <a class ="button_down " 
+    data-svg-popup="demo4" href="#skill"><i class = "fa fa-chevron-down demo-btn demo4"></i></a>
     <!-- <span class ="button_down">
     
     <i class = "fa fa-chevron-down">
@@ -124,7 +126,7 @@
                       <div class="col-md-6 clrp text_block" style="position:absolute;">
                         <!-- <p style="text-align:center; font-size:34px">ABOUT ME</p> -->
                         <h3>Hi, my name is Anastasiia, <br> I am Full Stack Web Developer with previous experience in testing and automation.
-                          I spent the last 3 years by testing various web applications and reporting other developers bugs... till I decided to learn Web Development. From this day I opened my passion for web development and started creating my personal bugs.
+                          I spent the last 3 years by testing various web applications and reporting other developers bugs... till I decided to learn Web Development. From this day I opened my passion for web development and started creating my personal bugs.<br>
                           What I am doing right now:
                         </h3>
                         <ul>
@@ -132,15 +134,14 @@
                           <li>properly testing them</li>
                           <li>implementing the last web designer technics</li>
                           <li>making clients happy</li>
-                        
-                        <li>When I am not working or studying, my hobbies include exploring new countries and trying national cuisines. </li>
-                        <li>Technologies that I use in my projects:</li>
+                        <li>when I am not working or studying, my hobbies include exploring new countries and trying national cuisines. </li>
                         </ul>
+                        <p>Technologies that I use in my projects: </p>
+                        
                        
                        
                         <div class="icon-list">
-                          
-
+                            
                           <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg style="width:100px;height:100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
@@ -162,6 +163,8 @@
         l-106.067,44.177l3.518,43.73l102.549,0.333l54.963,0.175l-3.521,58.311l-51.442,14.484v-0.046l-0.422,0.116l-49.684-12.542
         l-3.015-36.195h-0.164h-46.085h-0.162l6.032,69.876l93.5,27.649v-0.05l0.168,0.05l93-27.146L361.1,267.935H255.865h-0.26
         l0.26-0.112l109.086-46.639L369.477,176.444z"></path></g></svg>
+                                     
+      
         <?xml version="1.0" encoding="iso-8859-1"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg  style="width:100px;height:100px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px"
@@ -273,6 +276,7 @@
          M438.328,101.044c-0.288-0.17-0.646-0.17-0.935,0l-7.767,4.484c-0.292,0.167-0.47,0.477-0.47,0.81v8.979
         c0,0.333,0.178,0.644,0.47,0.81l7.767,4.484c0.288,0.167,0.646,0.167,0.935,0l7.773-4.484c0.293-0.166,0.47-0.477,0.47-0.81v-8.979
         c0-0.333-0.177-0.643-0.47-0.81L438.328,101.044z"></path></g></svg>
+        <br>
                          
                           <i class="fab fa-react" style="width:100px; height:100px;"></i>
                           <?xml version="1.0" encoding="iso-8859-1"?>
@@ -379,7 +383,7 @@
                           </div>
                           
                           
-                          <div> <img src="assets/images/triangle.png" style="width:100%; height:230px"></div>
+                          <div> <img src="assets/images/triangle.png" style="width:100%; height:330px"></div> 
                           <!-- <div class ="title-block" style="margin-left:520px;">
                             <h6 class="section_title front_side"><span class="sub_title" style="color:#2cbc99;font-size:30px;font-weight:bold;">Portfolio</span></span></h2>
                         </div> -->
@@ -680,7 +684,10 @@ $(document).ready(main);
 
 
 
+
+
 </script>
+<script src="popup.js"></script>
    
 </body>
 </html>
