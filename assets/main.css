@@ -498,10 +498,15 @@ form#send input {
 .col-sm-6{
     float:left;
 }
+.ol-md-6 clrp text_block {
+    position:absolute;
+}
 .panel {
     height: 100%;
     width: 100%;
 }
+
+
 @media (min-width: 768px)
 .col-sm-6 {
     width: 50%;
