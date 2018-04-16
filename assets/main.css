@@ -169,7 +169,7 @@ h1 {
     z-index:100;
     box-shadow: 0 2px 2px #111;
     border-radius:50%;
-    -webkit-transition: all.3s;
+   
 }
 
 .fab{
@@ -233,7 +233,7 @@ h2, h6 {
 .title_block .front_side {
     backface-visibility: hidden;
     background: #fff;
-    -webkit-transform-origin: center center;
+   
     
 }
 
@@ -241,7 +241,7 @@ h2, h6 {
     width: 300px;
     margin: 0 auto 75px;
     position: relative;
-    -webkit-transform-style: preserve-3d;
+   
 }
 
 p {
@@ -265,7 +265,7 @@ body {
     font-weight: 400;
     line-height: 1.62857;
     color: #333;
-    text-size-adjust: 100%;
+    
 }
 
 #skill h3 {
@@ -292,7 +292,7 @@ ul{
 }
 [class^=icon-] {
     font-family: tech-icon!important;
-    speak: none;
+    
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
@@ -307,7 +307,7 @@ ul{
     height: 60px;
     background-color: #000;
     z-index: 10;
-    -webkit-transition: right .3s;
+   
     border-radius: 50%;
     top:50%;
 }
@@ -329,7 +329,7 @@ ul{
     background-color: #000;
     z-index: 10;
     border-radius: 50%;
-    -webkit-transition: left .3s;
+    
 }
 
 .monitor .monitor {
@@ -351,7 +351,7 @@ ul{
     height: 90%;
     left: 2%;
     overflow: hidden;
-    -webkit-transition: all .3s;
+   
     transition-delay: .3s;
 }
 
@@ -361,7 +361,7 @@ ul{
     height: 30px;
     background-color: #ccc;
     width: 10%;
-    -webkit-transition: all .5s;
+    
     position:absolute;
 }
 
@@ -372,13 +372,13 @@ ul{
     height: 5px;
     width: 30%;
     background-color: #ccc;
-    -webkit-transition: all .5s;
+    
     border-radius: 3px;
 }
 .monitor .cont img {
     width: 100%;
     height: auto;
-    -webkit-transition: all .3s;
+   
 }
 img{
     vertical-align: middle;
@@ -416,7 +416,7 @@ img{
     font-size: 35px;
     line-height: 75px;
     display: block;
-    -webkit-transition: all .3s;
+   
 
 }
 .fas {
@@ -506,14 +506,4 @@ form#send input {
     width: 100%;
 }
 
-
-@media (min-width: 768px)
-.col-sm-6 {
-    width: 50%;
-}
-
-@media (min-width: 768px)
-.col-sm-4 {
-    width: 33.33333333%;
-}
 
