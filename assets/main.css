@@ -21,13 +21,19 @@ h1 {
         text-align:center;
     }
 
+    .discover{
+        margin-bottom: 120px;
+        margin-top: 120px;
+        text-align: center;
+        margin-left:380px;
+    }
+
 
 
 .prof {
     position: absolute;
-    width: 590px;
-    margin-left: -295px;
-    left: 50%;
+    width: 690px;
+    margin-left:350px;
     top: 35%;
     font-family: BebasNeueBold;
     text-transform: uppercase;
@@ -346,6 +352,9 @@ h1 {
    
     width: 73px;
     height: 73px;
+}
+.svg-inline--fa fa-chevron-down fa-w-14 demo-btn demo4{
+    margin-left:18px;
 }
 
 
