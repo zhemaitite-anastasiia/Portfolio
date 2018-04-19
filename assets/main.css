@@ -290,25 +290,7 @@ h1 {
   .icon-manu img {
     margin-right: 5px;
   }
-/* .toggle_but span {
-    position:absolute;
-    width:30px;
-    height:2px;
-    left:4px;
-    background-color:#2cbc99;
-    -webkit-transition:all .3s;
-    box-sizing: border-box;
-}
-.toggle_but span:nth-child(1) {
-    top: 10px;
-    
-}
-.toggle_but span:nth-child(2) {
-    top: 22px;
-}
-.toggle_but span:nth-child(3) {
-    top: 34px;
-} */
+
 .soc_wrap{
     bottom: 0;
     position:absolute;
@@ -571,7 +553,7 @@ img{
     border-radius: 50%;
 }
 .site-item .wrap_prew .port_wrap div>span {
-    color: transparent;
+    color: transparent; 
     display: inline-block;
 }
 .site-item .wrap_prew .port_wrap .active>span.active i {
@@ -670,6 +652,14 @@ form#send input {
 .panel {
     height: 100%;
     width: 100%;
+}
+.sub_title{
+    text-decoration: #2cbc99;
+}
+a:-webkit-any-link {
+    color: #2cbc99;
+    cursor: pointer;
+    text-decoration: none;;
 }
 
 
