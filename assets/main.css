@@ -527,6 +527,13 @@ ul{
     height: auto;
    
 }
+#buttonone{
+
+width: 150px;
+height: 30px;
+background-color: #2cbc99;
+margin-left:230px;
+}
 img{
     vertical-align: middle;
     border:0;
@@ -551,6 +558,12 @@ img{
     transition: all .3s cubic-bezier(0,2,1,.5);
  
     border-radius: 50%;
+}
+.girl{
+    width: 200px;
+    height: 200px;
+    margin-left: 620px;
+    margin-top: -300px;
 }
 .site-item .wrap_prew .port_wrap div>span {
     color: transparent; 
@@ -668,20 +681,108 @@ a:-webkit-any-link {
   }
  @media only screen
  and (max-width:320px) {
-
+    
+    .top_nav{
+        width:40px;
+    }
+    .toggle_but{
+        margin-left:-25px;
+    }
+    .soc_wrap{
+        margin-left:30px;
+    }
+    .background{
+        width:30px;
+    }
+  
+    .fa-github{
+    margin-left:-60px;
+    }
+    .fa-linkedin{
+    margin-left:-60px;  
+    }
+    .fa-bars{
+    margin-left:-10px;
+    }
+    h1{
+        position: absolute;
+        margin-left: -230px;
+        left: 100%;
+        top: 30%;
+        font-family: BebasNeueBold;
+        color: #111;
+        letter-spacing: 8px;
+        text-shadow: 6px 4px 2px #8e7676;
+        padding-left: 0px;
+        font-size: 20px;
+        text-align: left;
+        margin-top: -55px;
+    }
+    .prof{
+        width:200px;
+        padding-left:60px;
+        font-size: 20px;
+        margin-left:0px;
+    }
+   .girl{
+       width:200px;
+       margin-left:70px;
+       margin-top:-300px;
+   }
+   #light{
+    width: 0;
+    height: 0;
+    border: 100px solid transparent;
+    border-bottom: 300px solid rgba(255,253,184,0.3);
+    margin-top: -150px;
+   }
+   .button_down{
+       bottom: -300px;
+   }
+   h2{
+       width:200px;
+       margin-left:-500px;
+   }
+   .portrait{
+    width: 300px;
+    height: 330px;
+    margin-left: 450px;
+    max-width: 100%;
+   }
+   #skill h3{
+       width:45%;
+   }
+   .section_title front_side{
+       margin-left:-500px;
+   }
+   #buttonone{
+    width: 150px;
+    height: 30px;
+    background-color: #2cbc99;
+    margin-left:0px;
+   }
+ }
+ @media only screen and (min-width:321px) and (max-width:480px){
+  .top_nav{
+     width:40px;
+  }
+  .toggle_but{
+     width:30px;
+  }
+  .svg-inline--fa fa-github fa-w-16{
+    width: 20px;
+    margin-left: -15px;
+  }
+  
  }
  @media only screen
- and (min-width:321px)
-and (max-width:480px){
+ and (min-width:481px)
+and (max-width:767px){
 
  }
  @media only screen
  and (min-width:768px)
-and (max-width:1024px){
-
- }
- @media only screen
- and (min-width:1224px)
+ and (max-width:1339px)
 {
 
  }
