@@ -238,6 +238,12 @@ h1 {
     margin: 0;
     padding: 0;
   }
+  .portrait{
+    width:300px; 
+    height:380px; 
+    margin-left:900px;
+    max-width:100%;
+  }
    
   .menu li {
     border-bottom: 1px solid #555;
@@ -501,6 +507,10 @@ ul{
    
     transition-delay: .3s;
 }
+#text{
+    width:600px;
+    height:100px;
+}
 
 .monitor .stand {
     bottom: -31px;
@@ -558,6 +568,10 @@ img{
     transition: all .3s cubic-bezier(0,2,1,.5);
  
     border-radius: 50%;
+}
+#skill h3{
+    font-family:Comic Sans MS, cursive, sans-serif; 
+    width:50%;
 }
 .girl{
     width: 200px;
@@ -746,11 +760,12 @@ a:-webkit-any-link {
    .portrait{
     width: 300px;
     height: 330px;
-    margin-left: 450px;
+    margin-left: 0px;
     max-width: 100%;
    }
    #skill h3{
        width:45%;
+       margin-top:340px;
    }
    .section_title front_side{
        margin-left:-500px;
@@ -761,6 +776,9 @@ a:-webkit-any-link {
     background-color: #2cbc99;
     margin-left:0px;
    }
+  #text{
+      width:200px;
+  }
  }
  @media only screen and (min-width:321px) and (max-width:480px){
   .top_nav{
