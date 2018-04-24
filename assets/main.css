@@ -507,6 +507,9 @@ ul{
    
     transition-delay: .3s;
 }
+.tech{
+    font-family:Comic Sans MS, cursive, sans-serif;
+}
 #text{
     width:600px;
     height:100px;
@@ -633,6 +636,10 @@ form#send {
     position: relative;
     z-index: 1;
 }
+h23{
+    font-size:24px;  
+    text-align:center;
+}
 footer {
     position: relative;
     overflow: hidden;
@@ -688,6 +695,22 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: none;;
 }
+h13{
+    font-family:Comic Sans MS, cursive, sans-serif;
+}
+.icons{
+    width:100px;
+    height:100px;
+}
+#react{
+    width:100px;
+    height:100px;
+}
+.triangle{
+    width:100%; 
+    height:360px;
+    max-width:100%;
+}
 
 @viewport {
     width: device-width ;
@@ -695,6 +718,83 @@ a:-webkit-any-link {
   }
  @media only screen
  and (max-width:320px) {
+     .h_13{
+         width:300px;
+     }
+     .discover{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        text-align: center;
+        margin-left: 0px;
+     }
+     #git{
+         margin-left:-0px;
+     }
+     .triangle{
+        width: 300px;
+        height: 60px;
+        max-width: 100%;
+        margin-top: 770px;
+     }
+     .icon-list{
+         width:320px;
+
+     }
+     .monitor .monitor{
+         width:300px;
+         max-width:300px;
+         height:190px;
+         min-width:300px;
+         /* margin-top:460px; */
+     }
+     .burger{
+         width:280px;
+     }
+     .baskin{
+         width:280px;
+     }
+     .news{
+        width:280px;
+    }
+    .click{
+        width:280px;
+    }
+    .friend{
+        width:280px;
+    }
+    /* .discover{
+        font-size: 12px;
+        text-align: center;
+        margin-left: -830px;
+    } */
+     #portfolio .site-item>div {
+        display: inline-block;
+        width: 80%;
+        vertical-align: middle;
+     }
+     .site-descr h3{
+        font-size: 18px;
+        color: #2cbc99;
+        font-family: OpenSansBold;
+        line-height: 25px;
+        text-align: center;
+        margin-left: 80px;
+        margin-top:40px;
+     }
+     .icons{
+         width:40px;
+         height:40px;
+     }
+     #react{
+        width:40px;
+        height:40px;
+     }
+     h6{
+        background: #000;
+        margin-top: 440px;
+        margin-left: -520px;
+        width: 300px;
+     }
     
     .top_nav{
         width:40px;
@@ -778,6 +878,9 @@ a:-webkit-any-link {
    }
   #text{
       width:200px;
+  }
+  .tech{
+      width:40%;
   }
  }
  @media only screen and (min-width:321px) and (max-width:480px){
