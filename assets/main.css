@@ -851,7 +851,7 @@ h13{
     margin-top: -150px;
    }
    .button_down{
-       bottom: -300px;
+       bottom: -100px;
    }
    h2{
        width:200px;
@@ -1017,7 +1017,7 @@ h13{
    margin-top: -150px;
   }
   .button_down{
-      bottom: -300px;
+      bottom: -100px;
   }
   h2{
       width:460px;
@@ -1052,7 +1052,173 @@ h13{
  @media only screen
  and (min-width:481px)
 and (max-width:767px){
+    .h_13{
+        width:700px;
+    }
+    .discover{
+       margin-bottom: 0px;
+       margin-top: 0px;
+       text-align: center;
+       margin-left: 0px;
+    }
+    #git{
+        margin-left:-0px;
+    }
+    .triangle{
+       width: 700px;
+       height: 20px;
+       max-width: 100%;
+       margin-top: 600px;
+    }
+    .icon-list{
+        width:700px;
 
+    }
+    .monitor .monitor{
+        width:700px;
+        max-width:600px;
+        height:350px;
+        min-width:400px;
+        /* margin-top:460px; */
+    }
+    .burger{
+        width:500px;
+    }
+    .baskin{
+        width:500px;
+    }
+    .news{
+       width:500px;
+   }
+   .click{
+       width:500px;
+   }
+   .friend{
+       width:500px;
+   }
+   /* .discover{
+       font-size: 12px;
+       text-align: center;
+       margin-left: -830px;
+   } */
+    #portfolio .site-item>div {
+       display: inline-block;
+       width: 500px;
+       vertical-align: middle;
+    }
+    .site-descr h3{
+       font-size: 25px;
+       color: #2cbc99;
+       font-family: OpenSansBold;
+       line-height: 25px;
+       text-align: center;
+       margin-left: 160px;
+       margin-top:40px;
+    }
+    .icons{
+        width:70px;
+        height:70px;
+    }
+    #react{
+       width:50px;
+       height:50px;
+    }
+    h6{
+       background: #000;
+       margin-top: 500px;
+       margin-left: -520px;
+       width: 700px;
+    }
+   
+   .top_nav{
+       width:40px;
+   }
+   .toggle_but{
+       margin-left:-25px;
+   }
+   .soc_wrap{
+       margin-left:30px;
+   }
+   .background{
+       width:30px;
+   }
+ 
+   .fa-github{
+   margin-left:-60px;
+   }
+   .fa-linkedin{
+   margin-left:-60px;  
+   }
+   .fa-bars{
+   margin-left:-10px;
+   }
+   h1{
+       position: absolute;
+       margin-left: -580px;
+       left: 100%;
+       top: 30%;
+       font-family: BebasNeueBold;
+       color: #111;
+       letter-spacing: 8px;
+       text-shadow: 6px 4px 2px #8e7676;
+       padding-left: 0px;
+       font-size: 20px;
+       text-align: left;
+       margin-top: -55px;
+   }
+   .prof{
+       width:500px;
+       padding-left:140px;
+       font-size: 20px;
+       margin-left:0px;
+   }
+  .girl{
+      width:200px;
+      margin-left:250px;
+      margin-top:-300px;
+  }
+  #light{
+   width: 0;
+   height: 0;
+   border: 100px solid transparent;
+   border-bottom: 300px solid rgba(255,253,184,0.3);
+   margin-top: -150px;
+  }
+  .button_down{
+      bottom: -100px;
+  }
+  h2{
+      width:760px;
+      margin-left:-550px;
+  }
+  .portrait{
+   width: 500px;
+   height: 600px;
+   margin-left: 40px;
+   max-width: 100%;
+  }
+  #skill h3{
+      width:700px;
+      margin-top:640px;
+  }
+  .section_title front_side{
+      margin-left:-500px;
+  }
+  #buttonone{
+   width: 150px;
+   height: 30px;
+   background-color: #2cbc99;
+   margin-left:0px;
+  }
+ #text{
+     width:606px;
+ }
+ .tech{
+     width:700px;
+ }
+ .dev{
+     margin-left:-420px;
+ }
  }
  @media only screen
  and (min-width:768px)
