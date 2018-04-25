@@ -1393,7 +1393,7 @@ and (max-width:767px){
  }
 
  }
- @media only screen
+ /* @media only screen
  and (min-width:1824px)
 {
 .prof{
@@ -1447,4 +1447,4 @@ h6{
 
 
 
-
+ */
