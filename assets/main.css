@@ -1222,8 +1222,175 @@ and (max-width:767px){
  }
  @media only screen
  and (min-width:768px)
- and (max-width:1339px)
+ and (max-width:1024px)
 {
+    .h_13{
+        width:1000px;
+    }
+    .discover{
+       margin-bottom: 0px;
+       margin-top: 0px;
+       text-align: center;
+       margin-left: 0px;
+    }
+    #git{
+        margin-left:-0px;
+    }
+    .triangle{
+       width: 1000px;
+       height: 40px;
+       max-width: 100%;
+       margin-top: 600px;
+    }
+    .icon-list{
+        width:1000px;
+
+    }
+    .monitor .monitor{
+        width:1000px;
+        max-width:800px;
+        height:350px;
+        min-width:400px;
+        /* margin-top:460px; */
+    }
+    .burger{
+        width:700px;
+    }
+    .baskin{
+        width:700px;
+    }
+    .news{
+       width:700px;
+   }
+   .click{
+       width:700px;
+   }
+   .friend{
+       width:700px;
+   }
+   /* .discover{
+       font-size: 12px;
+       text-align: center;
+       margin-left: -830px;
+   } */
+    #portfolio .site-item>div {
+       display: inline-block;
+       width: 700px;
+       vertical-align: middle;
+    }
+    .site-descr h3{
+       font-size: 35px;
+       color: #2cbc99;
+       font-family: OpenSansBold;
+       line-height: 25px;
+       text-align: center;
+       margin-left: 220px;
+       margin-top:40px;
+    }
+    .icons{
+        width:90px;
+        height:90px;
+    }
+    #react{
+       width:90px;
+       height:90px;
+    }
+    h6{
+       background: #000;
+       margin-top: 500px;
+       margin-left: -520px;
+       width: 1000px;
+    }
+   
+   .top_nav{
+       width:40px;
+   }
+   .toggle_but{
+       margin-left:-25px;
+   }
+   .soc_wrap{
+       margin-left:30px;
+   }
+   .background{
+       width:30px;
+   }
+ 
+   .fa-github{
+   margin-left:-60px;
+   }
+   .fa-linkedin{
+   margin-left:-60px;  
+   }
+   .fa-bars{
+   margin-left:-10px;
+   }
+   h1{
+       position: absolute;
+       margin-left: -720px;
+       left: 100%;
+       top: 30%;
+       font-family: BebasNeueBold;
+       color: #111;
+       letter-spacing: 8px;
+       text-shadow: 6px 4px 2px #8e7676;
+       padding-left: 0px;
+       font-size: 20px;
+       text-align: left;
+       margin-top: -55px;
+   }
+   .prof{
+       width:750px;
+       padding-left:140px;
+       font-size: 20px;
+       margin-left:0px;
+   }
+  .girl{
+      width:200px;
+      margin-left:370px;
+      margin-top:-300px;
+  }
+  #light{
+   width: 0;
+   height: 0;
+   border: 100px solid transparent;
+   border-bottom: 300px solid rgba(255,253,184,0.3);
+   margin-top: -150px;
+  }
+  .button_down{
+      bottom: -100px;
+  }
+  h2{
+      width:1000px;
+      margin-left:-550px;
+  }
+  .portrait{
+   width: 500px;
+   height: 600px;
+   margin-left: 40px;
+   max-width: 100%;
+  }
+  #skill h3{
+      width:1000px;
+      margin-top:640px;
+  }
+  .section_title front_side{
+      margin-left:-500px;
+  }
+  #buttonone{
+   width: 150px;
+   height: 30px;
+   background-color: #2cbc99;
+   margin-left:0px;
+  }
+ #text{
+     width:706px;
+ }
+ .tech{
+     width:1000px;
+ }
+ .dev{
+     margin-left:-260px;
+ }
 
  }
  @media only screen
