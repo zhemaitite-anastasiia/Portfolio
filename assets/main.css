@@ -1396,6 +1396,50 @@ and (max-width:767px){
  @media only screen
  and (min-width:1824px)
 {
+.prof{
+    margin-left:550px;
+}
+h2{
+   margin-left: 200px;
+}
+h6{
+    margin-left: 200px;
+ }
+ h23{
+     margin-left:200px;
+ }
+.girl{
+    margin-left:820px;
+}
+.portrait{
+    width:350px;
+    height:380px;
+    
+} 
+.site-descr h3{
+    margin-left:220px;
+}
+.burger{
+    margin-left:100px;
+}
+.baskin{
+    margin-left:100px;
+}
+.news{
+    margin-left:100px;
+}
+.click{
+    margin-left:100px;
+}
+.friend{
+    margin-left:100px;
+}
+#light{
+    margin-left:-500px;
+}
+.button_down{
+    bottom: 300px;
+}
 
  }
 
