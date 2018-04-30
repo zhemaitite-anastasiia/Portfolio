@@ -647,31 +647,31 @@
 </footer>
 </section>
 
-<script>
-function typeEffect(element, speed) {
-	var text = $(element).text();
-	$(element).html('');
+<!-- 
+// function typeEffect(element, speed) {
+// 	var text = $(element).text();
+// 	$(element).html('');
 	
-	var i = 0;
-	var timer = setInterval(function() {
-					if (i < text.length) {
-						$(element).append(text.charAt(i));
-						i++;
-					} else {
-						clearInterval(timer);
-					}
-				}, speed);
-}
-$( document ).ready(function() {
-  var speed = 175;
-  var delay = $('h1').text().length * speed + speed;
-  typeEffect($('h1'), speed);
-  setTimeout(function(){
-    $('.prof').css('display', 'inline-block');
-    typeEffect($('.prof'), speed);
-  }, delay);
+// 	var i = 0;
+// 	var timer = setInterval(function() {
+// 					if (i < text.length) {
+// 						$(element).append(text.charAt(i));
+// 						i++;
+// 					} else {
+// 						clearInterval(timer);
+// 					}
+// 				}, speed);
+// }
+// $( document ).ready(function() {
+//   var speed = 175;
+//   var delay = $('h1').text().length * speed + speed;
+//   typeEffect($('h1'), speed);
+//   setTimeout(function(){
+//     $('.prof').css('display', 'inline-block');
+//     typeEffect($('.prof'), speed);
+//   }, delay);
   
-});
+// });
 // var main = function() { 
  
 //  $('.icon-menu').click(function() { 
@@ -709,12 +709,12 @@ $( document ).ready(function() {
 // };
 
 // $(document).ready(main);
+ -->
 
 
 
 
-
-</script>
+<script src="assets/title.js"></script>
 <script src="assets/popup.js"></script>
 <script src="assets/scroll-down.js"></script>
 <script src="assets/navigation.js"></script>
