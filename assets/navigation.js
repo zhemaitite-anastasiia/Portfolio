@@ -1,5 +1,5 @@
 var main = function() { 
- 
+ console.log("loaded")
  $('.icon-menu').click(function() { 
 
      $('.menu').animate({ 
