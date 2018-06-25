@@ -1494,3 +1494,45 @@ h6{
 
 
  */
+ @media only screen
+ and (min-width:1024px)
+ and (max-width:1200px)
+{
+
+}
+
+@media only screen
+and (min-width:1200px)
+and (max-width:1400px)
+{
+#light{
+    margin-left:-790px;
+    
+}
+.girl{
+    margin-left:480px;
+}
+h2,h6{
+    margin-left:-90px;
+}
+.portrait{
+    margin-left:818px;
+
+}
+.site-descr{
+   width:400px;
+}
+p{
+    width:500px;
+}
+ul{
+    margin-left:90px;
+}
+h4{
+    margin-left:100px;
+}
+a{
+    margin-left:130px;
+}
+
+}
