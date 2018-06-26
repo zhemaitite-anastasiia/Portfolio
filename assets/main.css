@@ -1498,6 +1498,15 @@ h6{
  and (min-width:1024px)
  and (max-width:1200px)
 {
+#light{
+    margin-left:-820px;
+}
+.portrait{
+    margin-left:800px;
+}
+
+
+
 
 }
 
